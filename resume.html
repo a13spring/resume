@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме — Замчалкин Владислав Михайлович</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9fb;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #3498db;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 15px;
+            color: #555;
+        }
+
+            .contact-info div {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 5px;
+        }
+
+            ul li {
+                margin-bottom: 8px;
+                display: flex;
+                align-items: flex-start;
+            }
+
+                ul li::before {
+                    content: "•";
+                    color: #3498db;
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+
+        .about {
+            text-align: justify;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .contact-info {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <!-- Загрузка Font Awesome (локальная версия для надёжности) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Замчалкин Владислав Михайлович</h1>
+            <div class="title">Стажёр-разработчик 1С | Выпускник по IT</div>
+            <div class="contact-info">
+                <div><i class="fas fa-phone"></i> +7 (999) 980-47-83</div>
+                <div><i class="fas fa-envelope"></i> vlad.zamch2@mail.ru</div>
+                <div><i class="fas fa-map-marker-alt"></i> Павловский Посад / Москва</div>
+            </div>
+        </header>
+
+        <section>
+            <h2><i class="fas fa-bullseye"></i> Цель</h2>
+            <p>Стать стажёром-разработчиком 1С с перспективой роста. Готов применить знания в области автоматизации бизнес-процессов, активно учиться и развиваться в команде опытных специалистов.</p>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-graduation-cap"></i> Образование</h2>
+            <p><strong>ГБПОУ МО "Павлово-Посадский техникум"</strong></p>
+            <p>Специальность: «Информационные системы и программирование»</p>
+            <p>Год окончания: 2023</p>
+        </section>
+	<section>
+      		<h2><i class="fas fa-briefcase"></i> Опыт работы</h2>
+      		<p><strong>ООО «РЖД»</strong></p>
+      		<p>Должность: Помощник машиниста</p>
+      		<p>Период: 6 месяцев</p>
+        <section>
+        <section>
+            <h2><i class="fas fa-cogs"></i> Навыки</h2>
+            <ul>
+                <li>Программирование в 1С:Предприятие 8.3</li>
+                <li>SQL — написание запросов, работа с базами данных</li>
+                <li>Принципы ООП и алгоритмизации</li>
+                <li>Git / GitHub / GitLab — контроль версий и командная разработка</li>
+                <li>Умение работать в команде, быстро обучаться, решать задачи</li>
+            </ul>
+        </section>
+
+            <h2><i class="fas fa-globe"></i> Языки</h2>
+            <ul>
+                <li>Русский — родной</li>
+                <li>Английский — B1 (чтение документации, базовое общение)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-user"></i> О себе</h2>
+            <p class="about">
+                Ответственный и целеустремлённый выпускник техникума по направлению «Информационные системы и программирование».
+                Интересуюсь разработкой в 1С и автоматизацией бизнес-процессов. Быстро осваиваю новые технологии, умею находить
+                решения в нестандартных ситуациях. Готов к интенсивному обучению и профессиональному росту.
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>
